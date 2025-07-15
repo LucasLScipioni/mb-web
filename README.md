@@ -8,8 +8,7 @@ Sistema de cadastro multi-etapas desenvolvido em Vue 3 com validação tanto no 
 
 1. Clone o projeto
 2. Instale as dependências: `npm run install:all`, instalando as dependências do projeto WEB e Backend Server.
-
-Para rodar o projeto completo (frontend + backend):
+3. Para rodar o projeto completo (frontend + backend):
 
 ```bash
 npm run project
