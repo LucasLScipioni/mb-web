@@ -1,0 +1,35 @@
+@import './reset';
+
+:root {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 16px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: $text-color;
+  background-color: $background-color;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 600;
+  color: $primary-color;
+  text-decoration: inherit;
+
+  &:hover {
+    color: $primary-hover;
+  }
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: $background-color;
+  overflow-x: hidden;
+}
